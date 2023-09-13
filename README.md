@@ -2,25 +2,7 @@
 
 Qt 5.15 LTS with the KDE patch collection applied.
 
-
-https://github.com/RaymiiOrg/Qt-5.15-from-source-build-Docker
-
-More info on the KDE Qt 5.15 patches: https://community.kde.org/Qt5PatchCollection
-
-Currently a docker image for Android.
-
-Make sure to sync up the `NDK_VERSION` and `BUILD_TOOLS` in the Dockerfile with the `ndkVersion` in the `build.gradle` file:
-
-Dockerfile:
-
-    SDK_BUILD_TOOLS=30.0.2
-    NDK_VERSION=22.1.7171670
-
-build.gradle:
-
-    buildToolsVersion '30.0.2'
-    ndkVersion '22.1.7171670'
-
+More info: https://raymii.org/s/blog/Qt_5.15_LTS_Docker_Image_for_Android_with_OpenSSL.html
 
 Github blocks files larger than 100 MB, so you'll need to download the assets
 yourself, including their md5sum here:
